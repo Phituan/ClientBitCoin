@@ -1,0 +1,24 @@
+<form [formGroup]="form">
+  <div>
+    Name <input type="text" formControlName="name">
+  </div>
+  <div>
+    BaseAsset <input type="text" formControlName="baseAsset">
+  </div>
+  <div>
+    QuoteAsset <input type="text" formControlName="quoteAsset">
+  </div>
+  <div>
+    LastPrice <input type="text" formControlName="lastPrice">
+  </div>
+  <div>
+    Volumn24h <input type="text" formControlName="volumn24h">
+  </div>
+  <div>
+    MarketId <input type="text" formControlName="marketId">
+  </div>
+  <div>
+    <input type="submit" (click)="doSubmit()">
+  </div>
+</form>
+
